@@ -105,10 +105,10 @@ class ServiceController extends Controller {
 		/*
 		INFORMAMOS
 		*/
-		$meesage = 'Hola tu';
+		$meesage = 'Hola. Ha habido un cambio de servicio';
 		Mail::send('hola', array('html' => 'view', 'message' => $meesage), function($message)
 		{
-			$message->to('jm.moreno743@uniandes.edu.co', 'Juan Uniandes')->subject('Welcome!');
+			$message->to('carlos@castillo.com.co', 'Carlos Castillo')->subject('Ha habido un cambio de servicio!');
 		});
 		
 		//return redirect('ccservice/');
