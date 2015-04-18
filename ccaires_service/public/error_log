@@ -1,0 +1,43 @@
+[02-Apr-2015 21:43:06 UTC] PHP Fatal error:  Label 'Route' already defined in /home/uzupis/public_html/my_first_laravel/app/Http/routes.php on line 23
+[02-Apr-2015 21:45:01 UTC] PHP Fatal error:  Label 'Route' already defined in /home/uzupis/public_html/my_first_laravel/app/Http/routes.php on line 24
+[02-Apr-2015 22:14:49 UTC] PHP Fatal error:  Cannot make static method Illuminate\Database\Eloquent\Model::find() non static in class imas\entities\Idol in /home/uzupis/public_html/my_first_laravel/app/imas/repositories/IdolRepository.php on line 23
+[02-Apr-2015 22:15:39 UTC] PHP Fatal error:  Cannot make static method Illuminate\Database\Eloquent\Model::find() non static in class imas\entities\IdolRepository in /home/uzupis/public_html/my_first_laravel/app/imas/repositories/IdolRepository.php on line 23
+[02-Apr-2015 22:20:04 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: idolR' in /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php:61
+Stack trace:
+#0 /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php(61): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/uzupis/pu...', 61, Array)
+#1 [internal function]: App\Http\Controllers\IdolController->show('3')
+#2 /home/uzupis/public_html/my_first_laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(246): call_user_func_array(Array, Array)
+#3 /home/uzupis/public_html/my_first_laravel/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(162): Illuminate\Routing\Controller->callAction('show', Array)
+#4 /home/uzupis/public_html/my_first_laravel/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(107): Illuminate\Routing\ControllerDispatcher->call(Object(App\Http\Controllers\IdolController), Object(Illuminate\Ro in /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php on line 61
+[02-Apr-2015 22:20:04 UTC] PHP Fatal error:  Cannot access empty property in /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php on line 61
+[02-Apr-2015 22:29:44 UTC] PHP Fatal error:  Class 'App\Http\Controllers\View' not found in /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php on line 63
+[02-Apr-2015 23:27:23 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/uzupis/public_html/my_first_laravel/storage/framework/views/de09d67bc6c72e7482203c06d0536f99 on line 52
+[02-Apr-2015 23:27:50 UTC] PHP Fatal error:  Class 'Form' not found in /home/uzupis/public_html/my_first_laravel/storage/framework/views/de09d67bc6c72e7482203c06d0536f99 on line 47
+[02-Apr-2015 23:39:57 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php on line 50
+[02-Apr-2015 23:52:55 UTC] PHP Fatal error:  Class 'Form' not found in /home/uzupis/public_html/my_first_laravel/storage/framework/views/de09d67bc6c72e7482203c06d0536f99 on line 47
+[03-Apr-2015 00:54:36 UTC] PHP Fatal error:  Class 'Field' not found in /home/uzupis/public_html/my_first_laravel/storage/framework/views/de09d67bc6c72e7482203c06d0536f99 on line 11
+[03-Apr-2015 01:00:49 UTC] PHP Fatal error:  Class 'Field' not found in /home/uzupis/public_html/my_first_laravel/storage/framework/views/de09d67bc6c72e7482203c06d0536f99 on line 11
+[03-Apr-2015 01:20:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php on line 42
+[03-Apr-2015 01:24:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php on line 41
+[03-Apr-2015 02:00:33 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php on line 50
+[03-Apr-2015 02:02:42 UTC] PHP Fatal error:  Undefined class constant 'all' in /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php on line 50
+[03-Apr-2015 03:15:23 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Redirect' not found in /home/uzupis/public_html/my_first_laravel/app/Http/Controllers/IdolController.php on line 58
+[05-Apr-2015 00:09:44 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Service' not found in /home/uzupis/public_html/ccaires_service/app/Http/Controllers/ServiceController.php on line 43
+[05-Apr-2015 00:15:47 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Redirect' not found in /home/uzupis/public_html/ccaires_service/app/Http/Controllers/ServiceController.php on line 49
+[05-Apr-2015 00:31:22 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Redirect' not found in /home/uzupis/public_html/ccaires_service/app/Http/Controllers/ServiceController.php on line 50
+[05-Apr-2015 00:32:26 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Redirect' not found in /home/uzupis/public_html/ccaires_service/app/Http/Controllers/ServiceController.php on line 50
+[05-Apr-2015 00:52:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/uzupis/public_html/ccaires_service/app/Http/Controllers/ServiceController.php on line 52
+[05-Apr-2015 02:03:03 UTC] PHP Parse error:  syntax error, unexpected '')); ?>' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/uzupis/public_html/ccaires_service/storage/framework/views/2ec4289ce83a89784ce45fa2610b1d9e on line 67
+[06-Apr-2015 15:52:34 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/uzupis/public_html/ccaires_service/app/Http/Controllers/ServiceController.php on line 83
+[06-Apr-2015 15:53:36 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/uzupis/public_html/ccaires_service/app/Http/Controllers/ServiceController.php on line 83
+[06-Apr-2015 16:03:50 UTC] PHP Fatal error:  Cannot redeclare ccservice\repositories\ServicestateRepository::find() in /home/uzupis/public_html/ccaires_service/app/ccservice/repositories/ServicestateRepository.php on line 23
+[06-Apr-2015 16:07:15 UTC] PHP Fatal error:  Class 'ccservice\repositories\DB' not found in /home/uzupis/public_html/ccaires_service/app/ccservice/repositories/ServicestateRepository.php on line 25
+[06-Apr-2015 16:13:36 UTC] PHP Fatal error:  Class 'ccservice\repositories\DB' not found in /home/uzupis/public_html/ccaires_service/app/ccservice/repositories/ServicestateRepository.php on line 26
+[06-Apr-2015 16:59:18 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/uzupis/public_html/ccaires_service/storage/framework/views/2ec4289ce83a89784ce45fa2610b1d9e on line 66
+[06-Apr-2015 17:11:06 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ';' in /home/uzupis/public_html/ccaires_service/storage/framework/views/2ec4289ce83a89784ce45fa2610b1d9e on line 69
+[06-Apr-2015 17:11:33 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ';' in /home/uzupis/public_html/ccaires_service/storage/framework/views/2ec4289ce83a89784ce45fa2610b1d9e on line 69
+[06-Apr-2015 17:14:22 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ';' in /home/uzupis/public_html/ccaires_service/storage/framework/views/2ec4289ce83a89784ce45fa2610b1d9e on line 69
+[06-Apr-2015 17:14:57 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ';' in /home/uzupis/public_html/ccaires_service/storage/framework/views/2ec4289ce83a89784ce45fa2610b1d9e on line 69
+[06-Apr-2015 17:15:36 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ';' in /home/uzupis/public_html/ccaires_service/storage/framework/views/2ec4289ce83a89784ce45fa2610b1d9e on line 69
+[07-Apr-2015 17:12:01 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/uzupis/public_html/ccaires_service/storage/framework/views/2ec4289ce83a89784ce45fa2610b1d9e on line 62
+[07-Apr-2015 17:33:53 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Mail' not found in /home/uzupis/public_html/ccaires_service/app/Http/Controllers/ServiceController.php on line 107
